@@ -7,9 +7,9 @@ class Button extends StatelessWidget {
   final Color color;
   final void Function(String) cb;
 
-  static const DARK = Color.fromRGBO(82, 82, 82, 1);
+  static const DARK = Color.fromARGB(255, 73, 72, 72);
   static const DEFAULT = Color.fromRGBO(112, 112, 112, 1);
-  static const OPERATION = Color.fromARGB(255, 49, 13, 250);
+  static const OPERATION = Color.fromARGB(255, 85, 187, 25);
 
   Button({
     required this.text,
